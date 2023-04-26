@@ -1,0 +1,170 @@
+body{
+    margin: 8 0px;
+    font-family: 'Lato', sans-serif;
+    color: #070707;
+    font-size: 16px;
+    padding: 0 10px ;
+}
+p{
+    line-height:1.8;
+}
+h1{
+    font-family: 'Vollkorn', serif;
+    color: #660F53;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing:-2px;
+    line-height: 30px;
+    text-transform:uppercase;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 10px;
+    width: 40%;
+
+}
+h2{
+    
+    font-weight: 700;
+    color: #660F53;
+    font-size: 26px;
+    margin-bottom: 3px;
+    padding-bottom: 0;
+}
+h4{
+    color: #77312D;
+    font-size: 20px;
+    font-weight:700;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+ul li {
+    list-style: none;
+    text-decoration: none;
+    line-height:1.8;
+    margin-left: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.experience ul li{
+    list-style: disc;
+
+}
+div.horizontalgap {
+    float: left;
+    overflow: hidden;
+    height: 0px;
+    width: 40px;
+  }
+li::marker {
+    color:#660F53
+ }
+
+  img{
+    width: 200px;
+    height:200px;
+    border-radius: 20px;
+    border: #77312D 2px solid;
+    margin:12px 0 0 2px;
+    
+}
+
+header{
+    margin-bottom: 40px;
+}
+
+
+
+.fa-solid{
+    color: #660F53;
+    margin-right: 4+px;
+}
+
+a:link {
+    color:#77312D;
+    text-decoration: none;
+ }
+ a:visited{
+     color:#77312D;
+ }
+ a:hover{
+     color:blueviolet;
+ }
+ a:active{
+     color:#660F53;
+ }
+
+ .portfolio li a:link {
+    color: #77312D;
+    text-decoration: none;
+ }
+.portfolio li a:hover{
+    color:blueviolet;
+}
+.portfolio a:visited{
+    color: #77312D;
+}
+span{
+display: none;
+}
+
+/* media query breakpoints */
+    
+    
+    /* Smartphones (portrait) ----------- */
+    
+    @media only screen and (max-width : 790px) {
+    
+    }
+
+
+    /* Desktops and laptops ----------- */
+    
+    @media only screen  and (min-width : 966px) and (max-device-width : 1824px)
+    {
+        h1{
+            font-size: 42px;
+            font-weight: 40px;
+            letter-spacing: 4px;
+            line-height: 50px;
+            width:50%;
+        }
+        .column-left{
+            float: left;
+            width: 40%;
+            margin: 0px 10px;
+            padding: 0px 20px 0;
+        }
+        h2{
+            font-weight: 900;
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+        p{
+            font-size: 20px;
+        }
+        h4 {
+            font-size: 24px;
+            margin-bottom: 20px;;
+        }
+        
+        
+          
+          /* Clear floats after the columns */
+          .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+          img{
+            width: 300px;
+            height:250px;
+            border-radius: 20px;
+        }
+     
+        span{
+            display:inline
+            }
+    }
